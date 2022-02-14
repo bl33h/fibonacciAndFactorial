@@ -8,3 +8,9 @@
     )
 )
 ;-----------------------------------------------------------------
+;----------------------- IMPLEMENTACIÓN --------------------------
+(princ "Ingrese un numero del que quiere obtener su factorial: ")
+(setq num (read)) ;INPUT
+(princ "El resultado es: ")
+(princ (Fact num)) ;OUTPUT
+;-----------------------------------------------------------------
